@@ -1,0 +1,25 @@
+web page:- 
+A document which can be displayed in a web browser such as Firefox, Google Chrome, Opera,
+Microsoft Internet Explorer or Edge, or Apple's Safari. These are also often called just "pages."
+
+
+website:- 
+A collection of web pages which are grouped together and usually connected together in various
+ways. Often called a "web site" or "site."
+
+web server:- 
+A computer that hosts a website on the Internet.
+
+Web browser:- 
+A web browser takes you anywhere on the internet. It retrieves information 
+from other parts of the web and displays it on your desktop or mobile device. 
+The information is transferred using the Hypertext Transfer Protocol, which defines how text,
+images and video are transmitted on the web.
+
+HTML:-
+HTML is hypertext markup language, a formatting system for displaying material 
+retrieved over the Internet.
+
+CSS:-
+CSS (Cascading Style Sheets) is a declarative language that controls 
+how webpages look in the browser.
