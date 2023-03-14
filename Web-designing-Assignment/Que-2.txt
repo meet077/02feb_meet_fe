@@ -1,0 +1,23 @@
+Q: 2 What are tags and attributes in HTML?
+
+Ans. 
+
+HTML Tags :
+-----------------
+	HTML tags are special keywords surrounded by a pair of angle brackets <tag keyword>. Most tags come in pairs, with an opening and closing tag. The closing tag is the same as an opening tag with the addition of a forward-slash. The closing bold tag looks like this </p>.
+
+	Some tags, like the tag used to display an image <Meta >, do not have a closing version. This is because you do not need to define an opening and closing to display an image, just a location of where the image can be found.
+
+HTML Attributes :
+-------------
+	In simple words, an HTML attribute is what modifies an HTML element. It is usually in the form of unique words that one inserts inside the opening tag. They control the behavior of the element.  Attributes are inside the start tag of that particular element that needs modification.
+
+Types of HTML Attributes :
+
+-> The first ones are the required attributes. As the name suggests, they are needed by particular element types for them to function as expected.
+
+-> The next type is the optional attributes. Their role is to change the default functionality of an element.
+
+-> Standard attributes can support several element types.
+
+-> Last but not least, there are event attributes that allow element types to declare scripts that will run under certain circumstances.  

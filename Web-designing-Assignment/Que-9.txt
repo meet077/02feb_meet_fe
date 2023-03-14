@@ -1,0 +1,30 @@
+Q : 9 How is Cell Padding different from Cell Spacing?
+
+Ans.
+
+Cellpadding :
+
+	Cellpadding specifies the space between the border of a table cell and its contents (i.e) it defines the whitespace between the cell  edge and the content of the cell.
+
+Cellspacing :
+
+	Cellspacing specifies the space between cells (i.e) it defines the whitespace between the edges of the adjacent cells.
+
+=>Difference between Cellpadding and Cellspacing :
+
+		Cellpadding					Cellspacing
+
+*It specifies the space between the border of a table		*It specifies the space between adjacent cells.1
+cell and its contents.	
+
+*It is created by using HTML <table> tag but type		*It is also created by using HTML <table> tag but type 
+ attribute is set to cellpadding.				attribute is set to cellspacing.
+	
+*It is mainly meant for a single cell.			*Cellspacing can get subjected to more than one cell.
+
+*The default cellpadding value is 1 			*Whereas, the default cellspacing value is 2
+
+*Cellpadding is widely used and considered to be an 		*Cellspacing is less effective than Cellpadding.
+ attribute is set to cellpadding.	
+
+*Cellpadding is an attribute.				*Cellspacing is also an attribute.

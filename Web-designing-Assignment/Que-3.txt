@@ -1,0 +1,7 @@
+Q: 3 What are void elements in HTML?
+
+Ans.
+
+	A void element  is an element in HTML that doesn't have a closing tag. It is marked up by a start tag only. Void elements are used to represent elements that have no content and they cannot have any child elements. Void elements can have attributes. They are self-contained, and they don't require any additional information to be rendered correctly.
+
+Void elements in HTML are a special category of elements that are defined as having no content and no closing tag. They are used to represent elements that are self-contained and require no additional information to be rendered correctly. 

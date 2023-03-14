@@ -1,0 +1,50 @@
+Q: 5 What are different types of lists in HTML?
+
+Ans.
+
+	Lists are used to group together related pieces of information so they are clearly associated with each other and easy to read. In modern web development, lists are workhorse elements, frequently used for  general content.
+
+	Lists are good from a structural point of view as they help create a well-structured, more accessible, easy-to-maintain document. 
+
+List types in HTML:
+
+  There are three list types in HTML:
+
+ 1. Unordered list -- used to group a set of related items in no particular order
+ 2. Ordered list -- used to group a set of related items in a specific order
+ 3. Description list -- used to display name/value pairs such as terms and definitions
+ 4. Nested list -- used to an individual list item can contain another entire list
+
+Each list type has a specific purpose and meaning in a web page.
+
+   1) Unordered List :
+   ----------------------
+	Unordered (bulleted) lists are used when a set of items can be placed in any order. Although the items are all part of one list, you could put the items in any order and the list would still make sense.
+
+	You can use CSS to change the bullet to one of several default styles, use your own image, or even display the list without bullets.
+
+   2) Ordered List :
+   -------------------
+	Ordered (numbered) lists are used to display a list of items that should be in a specific order. If the list items were moved around into a different order, the information would no longer make sense.
+
+	Ordered lists can be displayed with several sequencing options. The default in most browsers is decimal numbers.As with unordered lists, you can use CSS to change the style of your ordered lists. 
+
+Beginning ordered lists with numbers other than 1:
+
+	A common requirement in ordered list usage is to get them to start with a number other than 1 (or i, or I, etc.). This is done using the start attribute, which takes a numeric value (even if you’re using CSS to change the list counters to be alphabetic or Roman). This is useful if you have a single list of items, but need to break up the list with a note or other related information. 
+
+   3) Description List :
+   -----------------------
+	Description lists (previously called definition lists, but renamed in HTML5) associate specific names and values within a list. Examples might be items in an ingredient list and their descriptions, article authors and brief bios, or competition winners and the years in which they won. You can have as many name-value groups as you like, but there must be at least one name and at least one value in each pair. 
+
+	Description lists are flexible: you can associate more than one value with a single name, or vice versa. For example, the term “coffee” can have several meanings, and you could show them one after the other Or, you can associate more than one name with the same value. This is useful to show variations of a term, all of which have the same meaning.
+
+	Description lists use one set of <dl></dl> tags wrapped around one or more groups of <dt></dt> (name) and <dd></dd> (value) tags. You must pair at least one <dt></dt> with at least one <dd></dd>, and the <dt></dt> should always come first in the source order.
+
+   4) Nested List :
+   -----------------
+	An individual list item can contain another entire list, called a nested list. It is useful for things like tables of contents that contain sub-sections. The entire nested list is contained inside the first list item.
+
+	Nested lists are quite useful, and often form the basis for navigation menus, as they are a good way to define the hierarchical structure of the web site. They are also very flexible, as either ordered or unordered lists can be nested inside either ordered or unordered list items.
+
+	Theoretically you can nest lists to any level you like, although in practice it can become confusing to nest lists too deeply. For very large lists, you may be better off splitting the content up into several lists with headings instead, or even splitting it up into separate pages. A good rule of thumb is, don’t nest lists deeper than three levels.

@@ -1,0 +1,49 @@
+Q : 12 How to create a Hyperlink in HTML?
+
+Ans.
+
+	Hyperlinks are a set of anchor tags that are used to point to another HTML file, text, audio, video, webpage, etc. Basically, a hyperlink is what makes a web.
+
+	Let's take an example of a popular webpage Wikipedia. As soon as we click on some of the hyperlinks present in the Wikipedia webpage, it redirects us to another specified webpage.
+
+	Hyperlinks allow us to link the documents to other documents as well as a link to specific parts of a document. Almost any content on the web can be converted to a link that when clicked goes to another webpage.
+
+HTML Links - Syntax :
+
+The anchor tag <a>..</a> is used to define a hyperlink in HTML. The syntax to specify the links in HTML is as follows 
+
+<a href=""> Text </a>
+
+The href attribute is the most important attribute of the anchor tag as it contains the link to the destination.
+
+The Text in the syntax is the text that is visible to the user as a link that when clicked takes the user to the destination webpage.
+
+Clicking on the text "Go to Google.com" takes us to Google’s home page which is linked in the href attribute inside the anchor tags.
+
+The Target Attribute :
+
+	The target attribute in HTML is used to tell the browser where to open the linked document when the link is clicked. However, by default, the linked documents open up in the current browser window but if you want to open it in another browser window or somewhere else then you need to specify the target attribute.
+
+The target attribute has four main values that are specified as follows-
+
+-> _self : It is used to open the linked document in the same browser window or tab in which it was clicked. However, it is not necessary to externally specify this value as it is by default set to _self only.
+-> _blank :	It is used to open the linked document in a new browser window.
+-> _parent : It is used for opening the linked document in the parent browser window.
+-> _top : It is used to open the linked document in the full browser window.
+
+Therefore, by using the target attribute inside the anchor tag, we can open the linked document in different browser windows as per our needs.
+
+Types of URLs :
+
+There are two types of URLs that you will hear about while using the web. The two types are listed below -
+
+* Absolute URL - It is used to specify the full web address of the destination website in the href attribute. The full address contains the full path of the website along with the protocol and the domain address of the website.
+
+* Relative URL - It is used to specify a local link in HTML that is relative to the page that we are in. For example, we have an image in the site directory and we are already working in the site folder. Then, we just need to specify the name of the image say, "Image.jpg" in the href attribute because this image file is relative to the directory we are currently in.
+
+	Therefore, in the relative url, we are not required to write the "https://www" part of the website.
+
+Use an Image as a Link :
+	
+	To use an image as a link in HTML, we will use the img tag inside the anchor tag in HTML. We will specify the address to the destination in the href attribute whereas the link the image in the src attribute of the img tag.
+

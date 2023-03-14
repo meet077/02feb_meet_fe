@@ -1,0 +1,37 @@
+Q : 7 What is the difference between the ‘id’ attribute and the ‘class’ attribute of HTML elements?
+
+Ans.
+
+	In HTML, both Id and Class are the element selector and are used to identify an element based on the name assign to these parameters. ID and Class selectors are the most widely used element selectors in CSS (HTML). The basic difference between ID and Class is that the ID selector is applied only to one element in a page, whereas the class selector can be applied to several elements on a single page.
+
+What is ID in HTML? :
+
+	In HTML, the "id" selector is used id attribute of an element. For an HTML element, the "id" name starts with the symbol '#' followed by a unique name. One important characteristics of the id element is that we can only attach one id selector to an element. Hence, the ID selector is always unique within an HTML page.
+
+What is CLASS in HTML? :
+
+	In HTML, the "class" selector is used to select an element with a specific class attribute. The class selector starts with a period (.) followed by a class name. Unlike the id selector, we can attach multiple selector to an HTML element. Therefore, the class can be applied many time within a page. The important point to note about the class selector is that the class name must not be started with a number.
+
+Difference between ID and CLASS in HTML :
+
+* ID :
+->Syntax
+In HTML, for an element, the ID name starts with the "#" symbol followed by a unique name assigned to it.
+
+->Selector
+Only one ID selector can be attached to an element.
+
+->Uniqueness
+ID is unique in a page and can only apply to at most one element
+
+* Class
+->Syntax
+"class" assigned to an element has its name starts with "." followed by class name.
+
+->Selector
+Multiple class selectors can be attached to an element.
+
+->Uniqueness
+The class can be applied to multiple elements so it could be multiple times on a single page.
+
+	The most significant difference that you should note here is that an element can have only one ID selector, while an element can have multiple class selectors. However, both ID and Class selectors are used to identify an element based on the name assigned to its parameters.

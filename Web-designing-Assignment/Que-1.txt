@@ -1,0 +1,17 @@
+Q: 1 Are the HTML tags and elements the same thing?
+
+Ans. 
+
+HTML Tags :
+-----------------
+	HTML tags are special keywords surrounded by a pair of angle brackets <tag keyword>. Most tags come in pairs, with an opening and closing tag. The closing tag is the same as an opening tag with the addition of a forward-slash. The closing bold tag looks like this </b>.
+
+	Some tags, like the tag used to display an image <img >, do not have a closing version. This is because you do not need to define an opening and closing to display an image, just a location of where the image can be found.
+
+HTML Elements :
+----------------------
+	HTML elements are individual components of HTML defined by HTML tags. At first glance, elements and tags can easily be mistaken for the same thing. But they are not. The key thing to remember is that elements are made up of tags, but tags are not made up of elements.
+
+Tags Vs Elements :
+-----------------------
+	Where tags are used to define the start and stop of an element, elements refer to both the opening and closing tag and everything in-between. The elements that don't require a closing tag, like the <img> element, are called void elements.

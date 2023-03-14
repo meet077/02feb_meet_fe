@@ -1,0 +1,20 @@
+Q : 6 What is the ‘class’ attribute in HTML?
+
+Ans.
+
+The HTML class attribute is used to specify a single or multiple class names for an HTML element. The class name can be used by CSS and JavaScript to do some tasks for HTML elements. You can use this class in CSS with a specific class, write a period (.) character, followed by the name of the class for selecting elements.
+
+A class attribute can be defined within <style> tag or in separate file using the (.) character.
+
+In an HTML document, we can use the same class attribute name with different elements.
+
+Defining an HTML class :
+
+To create an HTML class, firstly define style for HTML class using <style> tag within <head> section as following example:
+
+We have define style for a class name "headings", and we can use this class name with any of HTML element in which we want to provide such styling. We just need to follow the following syntax to use it.
+
+<div class="ghf"> content </div>  
+
+Note: You can use class attribute on any HTML element. The class name is case-sensitive.
+
