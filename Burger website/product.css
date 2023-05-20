@@ -1,0 +1,54 @@
+body{
+    background-image: url(bg.png);
+}
+.btn-home{
+    position:fixed;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    padding: 10px 30px;
+    top: 20px;
+    right: 10px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+.procuct h1{
+    margin-left: 17%;
+    width: 1020px;
+    color: black;
+    text-align: center;
+    font-size: 60px;
+    text-transform: uppercase;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+img{
+    width: 70%;
+}
+.perent{
+    align-items: center;
+    justify-content: center;
+    /* background-color: blue; */
+    width: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.child{
+    text-align: center;
+    width: 400px;
+    /* border: 5px solid black;
+    background-color: red; */
+    padding-bottom: 70px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    /* border: 5px solid black; */
+    margin: 15px;
+}
+.child a{
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(146, 61, 61);
+    text-decoration: none;
+}
