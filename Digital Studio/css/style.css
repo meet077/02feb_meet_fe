@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+nav{
+    /* background-color: rgb(119, 119, 155); */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding: 10px 39px;
+
+}
+nav .logo p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+}
+nav .links {
+    /* background-color: red; */
+}
+nav .links a{
+    padding:15px ;
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2a2a2a;
+    font-size: 15px;
+}
+.container{
+    /* background-color: gray; */
+    margin: 30px;
+}
+.container h1{
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box-container {
+    margin: 20px;
+    /* background-color: gray; */
+    display: flex;
+}
+.box-container .boxs{
+    padding: 0px 10px;
+}
+
+.box-container .boxs .line{
+    margin: 8px 0px;
+}
+.box-container .text h6,p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 10px;
+    font-size: 13px;
+}
+.box-container .boxs .names{
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5px;
+}
+.abots{
+    position: relative;
+    margin: 30px;
+    display: flex;
+    /* background-color: green; */
+}
+.abots .left-about{
+    height: 15rem;
+    width: 50%;
+    /* background-color: yellow; */
+}
+.abots .left-about h1{
+    padding: 25px 0px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.abots .left-about p{
+    font-size: 14px;
+}
+.abots .right-about{
+    /* background-color: red !important; */
+    width: 50%;
+}
+.abots .right-about .end{
+    padding-right: 200px;
+    position: absolute;
+    bottom: 0;
+    text-align: justify;
+}
+.abots .right-about .end p{
+    font-size: 14px;
+}
+.abots .right-about .end button{
+    margin: 20px 0px;
+    padding: 5px 10px;
+    border-radius: 11px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.fc{
+    margin: 30px;
+    /* background-color: gray; */
+}
+.fc .fc-heading{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 21px;
+    letter-spacing: 5px;
+    padding: 50px 0px;
+}
+.fc .clients-review{
+    display: flex;
+}
+.fc .clients-review .clients-review-boxs {
+    height:auto;
+    width: 100%;
+    position: relative;
+    /* margin: 2px; */
+    /* background-color: red; */
+    padding-right: 50px;
+}
+.fc .clients-review .clients-review-boxs img{
+    padding: 0px 0px;
+    width: 150px;
+}
+.fc .clients-review .clients-review-boxs p{
+    padding: 20px 0px 50px 0px;
+    font-size: 14px;
+}
+.fc .clients-review .clients-review-boxs button{
+    /* margin: auto 0px; */
+    position: absolute;
+    bottom: 0;
+    padding: 5px 10px;
+    border-radius: 11px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+.brand-work {
+    margin: 30px;
+}
+.brand-work .brand-work-name{
+    margin: 100px 0px;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    letter-spacing: 2px;
+}
+.grid-container {
+    /* margin: 30px; */
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-container .one{
+    border-top: 1px solid rgba(0, 0, 0, 0.8);
+  }
+  .grid-item {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 13px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .grid-container .first{
+    text-align: left;
+  }
+  .grid-container .last{
+    text-align: right;
+  }
+.project-image{
+    margin: 30px;
+    display: flex;
+    /* background-color: rgb(175, 175, 209); */
+}
+.project-image img{
+    width: 100%;
+}
+.project-image .first-img, .se-img, .th-img{
+    padding-right: 20px;
+}
+.case-study{
+    background-color: #f0f0f0;
+    /* margin: 30px; */
+    padding: 30px;
+}
+.case-study .case-study-name h1{
+    padding: 9px 0px 50px 0px;
+    color: black;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+}
+.case-study .info{
+    /* background-color: green; */
+    display: flex;
+    justify-content: space-between;
+}
+.case-study .info .middel-info .b-info{
+    padding-bottom: 20px;
+}
+.case-study .info .middel-info .b-info .p-name{
+    color: gray;
+    padding-bottom:8px ;
+}
+.case-study .info .middel-info .b-info .p-text{
+    padding-bottom: 3px;
+}
+.case-study .info .end-info .b-info{
+    padding-bottom: 20px;
+}
+.case-study .info .end-info .b-info .p-name{
+    color: gray;
+    padding-bottom:8px ;
+}
+.case-study .info button{
+    margin: 20px 0px;
+    padding: 5px 10px;
+    border-radius: 11px;
+    border: none;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+.case-study .info .left-info{
+    /* background-color: blue; */
+    width: 30%;
+}
+.footer-hr{
+    margin: 0px 30px;
+}
+.footer-logo p{
+    margin: 5px 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 23px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 795px){
+    .abots{
+        display: flex;
+        flex-direction: column;
+    }
+    .abots .left-about{
+        position:unset;
+        width: 100%;
+    }
+    .abots .right-about{
+        width: 100%;
+    }
+}
+
+@media (max-width: 400px){
+    .abots{
+        width: auto;
+    }
+    .abots .left-about{
+        
+        background-color: red;
+    }
+}
